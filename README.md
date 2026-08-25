@@ -18,7 +18,7 @@ of this project.
 
 | Categories      | Tools                                  |
 |-----------------|----------------------------------------|
-| Languages       | C, Zig, Rust                           |
+| Languages       | C/C++, Zig, Rust                       |
 | Assembly        | x86/64 (NASM, FASM, YASM), ARM, RISC-V |
 | Hardware Design | VHDL                                   |
 
@@ -27,8 +27,10 @@ thanks to [klein.c](https://github.com/kleindotc).
 
 You can see the PR's to support assembly and vhdl in devenv here:
 
-- [feat: Add Assembly language support - #3078](https://github.com/cachix/devenv/pull/3078)
-- [feat: Add VHDL language support - #3077](https://github.com/cachix/devenv/pull/3077)
+- [feature/add new languages support (ada/assembly/vhdl) #3118](https://github.com/cachix/devenv/pull/3118)
+
+>~~- [feat: Add Assembly language support - #3078](https://github.com/cachix/devenv/pull/3078)~~
+>~~- [feat: Add VHDL language support - #3077](https://github.com/cachix/devenv/pull/3077)~~
 
 ---
 
