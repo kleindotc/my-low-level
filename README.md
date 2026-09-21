@@ -18,11 +18,11 @@ of this project.
 
 | Categories      | Tools                                  |
 |-----------------|----------------------------------------|
-| Languages       | C/C++, Zig, Rust                       |
+| Languages       | C/C++, Zig, Rust, Lean                 |
 | Assembly        | x86/64 (NASM, FASM, YASM), ARM, RISC-V |
-| Hardware Design | VHDL                                   |
+| Hardware Design | VHDL / Verilog                         |
 
-The compatibility of [assembly.nix](./assembly.nix) and [vhdl.nix](./vhdl.nix)
+The compatibility of [assembly.nix](./nix/modules/assembly.nix), [vhdl.nix](./nix/modules/vhdl.nix) and [verilog.nix](./nix/modules/verilog.nix)
 thanks to [klein.c](https://github.com/kleindotc).
 
 You can see the PR's to support assembly and vhdl in devenv here:
