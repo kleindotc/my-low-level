@@ -72,7 +72,7 @@
         enable = true;
         name = "zig fmt";
         entry = "zig fmt";
-        files = "^packages/zig/.*\\.(zig|zon)$";
+        files = "\.(zig|zon)$";
         tpyes = [ "file" ];
         pass_filenames = true;
       };
